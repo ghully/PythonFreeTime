@@ -1,0 +1,16 @@
+#Degrees to Radians
+from math import pi
+def deg2rad(deg):
+    rad = deg * (pi/180)
+    string = " degrees in radians is "
+    print(str(deg) + string + str(rad) + ".")
+
+#Radians to Degrees
+def rad2deg(rad2):
+    deg2 = round(rad2 * (180/pi))
+    string2 = " in degrees is "
+    string3 = "°."
+    print(str(rad2) + string2 + str(deg2) + string3)
+    
+deg2rad(32)
+rad2deg(pi/4)
